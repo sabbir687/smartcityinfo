@@ -1,0 +1,198 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    width: 100%;
+    height: 65px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+   position: fixed;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 4px;
+    background-color: rgb(5, 235, 252);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: transparent;
+    color: black;
+    border-radius: 50%;
+}
+h4{
+    color: rgb(7, 0, 0);
+   padding-left: 6px;
+   font-weight: bolder;
+   font-size: 1.3rem;
+}
+
+b{
+    padding-left: 7px;
+}
+.menuber{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 21px;
+    
+}
+.menuber li {
+    display: flex;
+    text-decoration: none;
+}
+.menuber li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: .3s;
+ 
+}
+li a:hover{
+   text-decoration: underline;
+color: rgb(255, 4, 4);  
+}
+.serch{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin-right: 60px;
+  
+    align-items: center;
+    margin-top: 14px;
+    border-radius: 7px;
+}
+.serch input{
+     width: 200px;
+     height: 30px;
+     border: none;
+     border-radius: 7px;
+     margin-left: 30px;
+     
+}
+.serch input[type="search"]{
+   color: rgb(7, 0, 0);
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.serch button {
+ background: transparent;
+    border: none;
+}
+.serch button a:hover{
+ 
+    width: 10%;
+
+}
+.serch button a img{
+    
+    border-radius: 50%;
+    width: 25px;
+    margin-top: 4px;
+}
+.serch button a img:hover{
+    width: 30px;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+
+}
+.signupsection{
+    color: rgb(8, 0, 0);
+     width: 450px;
+     margin-top: 70px;
+    
+     
+}
+.fname{
+    padding: 15px;
+  
+}
+.lname{
+    padding: 15px;
+   
+}
+.contact{
+    padding: 15px;
+    
+}
+.country{
+    padding: 15px;
+   
+}
+.addrs{
+    padding: 15px;
+
+}
+.zip{
+    padding: 15px;
+
+}
+.username{
+    padding: 15px;
+ 
+}
+.pass{
+    padding: 15px;
+   
+}
+.sub{
+    padding: 5px;
+    margin-left: 38%;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(57, 219, 248); 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+   border: none;
+   transition: .3s;
+   
+}
+label{
+    color: rgb(7, 0, 0);
+    font-size: 1.2rem;
+    margin-left: 8%;
+
+}
+input{
+    width: 250px;
+    height: 25px;
+
+
+}
+input[type ="text"]{
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;    
+}
+input[type="submit"]{
+    border: none;
+    background: transparent;
+    font-size: 21px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color: rgb(4, 153, 223);
+
+}
+
